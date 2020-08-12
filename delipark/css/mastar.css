@@ -1,0 +1,233 @@
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    color:inherit;
+}
+
+
+
+/* inner-nav  */
+
+header{
+    padding: 10px 0;
+    border-bottom: 5px solid #e91e63;
+    background-color: #fff;
+}
+.inner-banner{
+    width: 90%;
+    float: right;
+}
+
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.navbar-inverse{
+    background-color: #fff;
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:#e91e63;
+}
+.logo-img{
+    width: 100%;
+    margin-top: 20px;
+}
+.join-btn a{
+    padding: .3rem 1.6rem;
+    background: #fafafa;
+    border: 1px solid #d4d4d4;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    margin: 0 5px;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+    color:#e91e63;
+}
+span.icon {font-family : xeicon;}
+
+@media (min-width: 768px){
+    .join-btn a{
+        padding: 5px 10px !important;
+    }
+}
+
+@media(max-width:767px){
+    .join-btn a{
+        margin: 10px 0;
+    }
+    .logo-img{
+        width: 50% !important;
+        margin: 0;
+        padding: 10px 0;
+    }
+    .navbar-toggle{
+        background: #f15f79;
+        border: none;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+        background: #e91e63;
+    }
+    .navbar-nav{
+        display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+    }
+    header{
+        padding: 1px 0;
+    }
+    .logo-img{
+        margin-left: 15px;
+    }
+    .sidebarNavigation .left-navbar-toggle{
+        margin-top: 25px;
+        float: right !important;
+        margin-right: 15px;
+    }
+    .sideMenu.open{
+        top: 72px;
+    }
+    .inner-banner{
+        width: 100%;
+    }
+    .sideMenu ul{
+        padding-top: 20px;
+    }
+    header{
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+    .mark{
+        flex-direction: column;
+    }
+}
+
+/* inner-nav end   */
+
+
+/* cotnent text  */
+
+.main{
+    padding: 2.1em 0;
+}
+.main-txt{
+    padding-top: 2.1rem;
+}
+#enter-search-caption {
+    display: inline;
+    font-size: 2rem;
+    background: #f15f79;
+    color: #fff;
+}
+
+.main-title h3{
+    padding: 0 .8rem;
+    font-size: 1.6rem;
+    border-bottom: 1px solid #ef2727;
+}
+
+
+.main-map{
+    width: 100%;
+    height: 500px;
+    background-color: #ef2727;
+}
+.main-map2{
+    width: 100%;
+    height: 500px;
+    background-color: #f2709c;
+}
+.mark, mark{
+    background: none;
+}
+.mark{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-btn a {
+    background: #ccc;
+    padding: .8rem 1.6rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #393939;
+    border-radius: .4rem;
+    width: 200px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    background: #fafafa;
+    border: 1px solid #c7c9c9;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 2px 4px rgba(102,102,102,.2);
+    box-shadow: 0px 2px 4px rgba(102,102,102,.2);
+}
+
+/* footer */
+
+footer{
+    background-color: #f2709c;
+    padding: 1.6rem 0;
+    color: #fff;
+}
+#footer ul li:after{
+    width: 1px;
+    height: 80px;
+    margin: auto;
+    content: '';
+    background: #fff;
+}
+
+#footer-caption {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #fff;
+}
+.search-title{
+    margin-bottom: .4rem;
+}
+.pref-area-wrap{
+    display: flex;
+}
+.no-bullet{
+    display: flex;
+}
+
+#footer-navigation {
+    font-size: 1.2rem;
+    padding: 1.6rem 0;
+    border-top: 1px solid rgba(255,255,255,.4);
+    border-bottom: 1px solid rgba(255,255,255,.4);
+}
+#footer-search-area ul li {
+    border-right: 1px solid #fff;
+    
+    padding: 0 5px;
+}
+
+#footer-search-area ul li:last-child{
+    border: none;
+}
+
+#footer-copy-right{
+    font-size: 1.1rem;
+    padding: 1.6rem 0 0 !important;
+}
+
+
+.
